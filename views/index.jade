@@ -1,0 +1,15 @@
+extends layout
+
+block content
+       
+      img(src='https://cdn2.iconfinder.com/data/icons/despicable-me-2-minions/128/despicable-me-2-Minion-icon-7.png', alt='Minion', align="left")
+      h1 MiniTwr
+      p  Tweet 
+      form(action='/', method='POST')
+        textarea(rows='7', cols='50', type='text', name='tweet', maxlength='150', placeholder='Entrez votre texte...')
+        input(type='submit', content='Sends', value='Envoyer')
+      ul
+        - each tweet in tweets
+          li= tweet
+      footer Beltzung Benjamin-Jeanmaire Jessica-Ferrier Anne
+
