@@ -1,0 +1,67 @@
+body {
+  color: #00BFFF;
+  background-color : #B7DBFF;
+  font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin : auto;
+  width : 800 px;
+}
+
+h1 { /*mintwr*/
+  
+  color: #00B7FF;
+  font-size : 100px;
+  text-shadow :0 0 3px black;
+  margin-left : 10px;
+  margin-top : 10px;
+}
+
+p {
+  text-align:center;
+  margin-bottom : 7px;
+  color : #2B95FF; 
+  font-family : Trebuchet MS ;
+}
+
+input {
+  border: 1px solid ;
+  font-size: 15px;
+  height: 25px;
+  width : 75px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  padding: 0px;
+  background-color : #2B95FF;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  text-align:center;
+  font : 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  text-align:left;
+  margin-left: 333px;
+  margin-right : 333px;
+  border: 1px solid;
+  word-wrap: break-word;
+  color: #474747 ;
+  margin-bottom: 3px;
+  font-size: 17px;
+  border-radius:5px;
+  list-style-type : none;
+  height : 65px;
+  padding: 5px;
+  background-color: #EEEEEE;
+}
+
+footer {
+  font : 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
